@@ -1,0 +1,78 @@
+/* 
+Red #DA291C
+Blue #0033A0
+Yellow #F2A900
+White  
+*/
+
+html, body {
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: red;
+}
+
+nav {
+    height: 6dvh;
+    background-color: #0033A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    border-radius: 12px;
+    width: 100px;
+    height: 75%;
+    border: none;
+    background-color: #F2A900;
+}
+
+.home-header {
+    font-size: 64px;
+    color: white;
+    padding-top: 256px;
+}
+
+.home-subheader {
+    font-size: 32px;
+    color: white;
+}
+
+#content {
+    height: 94dvh;
+    justify-items: center;
+}
+
+ul {
+    list-style-type: none;
+    color: white;
+    font-size: 24px;
+    padding-top: 40dvh;
+}
+
+li {
+    padding: 8px;
+}
+
+.card {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    padding-top: 256px;
+}
+
+.card p {
+    width: max-content;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 12px;
+}
